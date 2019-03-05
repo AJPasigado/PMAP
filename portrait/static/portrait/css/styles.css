@@ -1,0 +1,92 @@
+* {
+    -webkit-transition: all ease-out 1s;
+    -moz-transition: all ease-out 1s;
+    -o-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+}
+
+body {
+    background-image: linear-gradient(rgb(81, 75, 103), rgb(26, 24, 36));
+    background-attachment: fixed;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.letter-spacing {
+    letter-spacing: 0.1em;
+}
+
+.text-body {
+    height: 10vh;
+}
+
+
+.title-text {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+    margin-top: 10vh;
+    font-size: 6em;
+    font-weight: 700 !important;
+    border-bottom-color: white;
+}
+
+.text-loading {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-loading-cont {
+    display: none;
+}
+
+.img-container {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.img-feature {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 7px 18px 91px rgb(32, 29, 49);
+}
+
+.modal-dialog {
+    max-width: 80% !important;
+}
+
+.modal-content {
+    background-color: unset !important;
+}
+
+.img-modal {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    display: block;
+    width: 90%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 30px;
+    box-shadow: 7px 18px 91px rgb(32, 29, 49);
+}
+
+.button-class {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 100px;
+    width: 50%;
+    font-size: 2em;
+    padding: 3%;
+    font-weight: 700;
+    margin-top: 17vh;
+    margin-bottom: 10vh;
+}
