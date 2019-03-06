@@ -15,7 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-#PWA_SERVICE_WORKER_PATH = os.path.join(BASE_DIR, 'portrait\static\portrait\js', 'serviceworker.js')
+PWA_SERVICE_WORKER_PATH = os.path.join(BASE_DIR, 'portrait\static\portrait\js', 'serviceworker.js')
 PWA_APP_NAME = 'PMAP'
 PWA_APP_DESCRIPTION = "Generate random paintings"
 PWA_APP_THEME_COLOR = '#514b67'

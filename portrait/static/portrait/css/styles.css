@@ -15,18 +15,13 @@ body {
     letter-spacing: 0.1em;
 }
 
-.text-body {
-    height: 10vh;
-}
-
 
 .title-text {
     margin-left: auto;
     margin-right: auto;
-    display: block;
     color: white;
     margin-top: 10vh;
-    font-size: 6em;
+    font-size: 5em;
     font-weight: 700 !important;
     border-bottom-color: white;
 }
@@ -42,8 +37,9 @@ body {
 }
 
 .img-container {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 15vh;
 }
 
 .img-feature {
@@ -82,11 +78,55 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    position: fixed;
+    bottom: 0;
+    left: 25vw;
+    right: auto;
     border-radius: 100px;
     width: 50%;
     font-size: 2em;
+    font-weight: 800;
     padding: 3%;
-    font-weight: 700;
-    margin-top: 17vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    box-shadow: 7px 18px 91px rgb(32, 29, 49);
+}
+
+.nav-item {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: unset;
+    border-color: unset;
+    color: white;
+    border-bottom: 0.2em solid #dee2e6;;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    margin-left: 20%;
+    
+}
+
+a {
+    color: white;
+}
+
+.nav-tabs .nav-link {
+    border: unset;
+}
+
+.nav-tabs {
+    margin-bottom: 5vh;
+}
+
+.navbar.center .navbar-inner {
+    
+}
+
+.navbar.center .navbar-inner .nav {
+    
 }
