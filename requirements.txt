@@ -3,5 +3,5 @@ django-progressive-web-app
 keras
 tensorflow
 matplotlib
-opencv-python
 tqdm
+opencv-python
