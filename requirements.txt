@@ -1,5 +1,5 @@
 keras
 tensorflow
 matplotlib
-opencv-python
 tqdm
+opencv-python
