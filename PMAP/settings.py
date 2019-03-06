@@ -22,14 +22,18 @@ PWA_APP_THEME_COLOR = '#514b67'
 PWA_APP_BACKGROUND_COLOR = '#514b67'
 PWA_APP_DISPLAY = 'standalone'
 PWA_APP_START_URL = '/'
-'''
 PWA_APP_ICONS = [
     {
-        'src': '/static/images/my_app_icon.png',
+        'src': '/static/icon.png',
         'sizes': '160x160'
     }
 ]
-'''
+PWA_APP_SPLASH_SCREEN = [
+    {
+    'src': '/static/splash.png',
+    'media': '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 1)'
+    }
+]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
