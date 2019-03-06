@@ -4,6 +4,5 @@ from generator import generate, generate_color
 
 def index(request):
     context = {}
-    #if(generate("model/g_[1400].h5","uploads/grayscale") and generate("model/g_[2000].h5","uploads/colored")):
-    if(generate_color()):
+    if(generate("model/g_[1400].h5","uploads/grayscale") and generate("model/g_[2000].h5","uploads/colored")):
         return render(request, 'index.html', context)
