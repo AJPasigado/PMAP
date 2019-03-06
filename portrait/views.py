@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from generator import generate
+from generator import generate, generate_color
 # Create your views here.
 
 def index(request):
