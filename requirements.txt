@@ -1,5 +1,5 @@
-django
-django-progressive-web-app
 keras
-matplotlib
 tensorflow
+matplotlib
+opencv-python
+tqdm

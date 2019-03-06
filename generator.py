@@ -38,6 +38,5 @@ def generate():
 		plt.imshow(cv2.cvtColor(gen_imgs[i], cv2.COLOR_BGR2RGB))
 		plt.savefig(f"{output_dir}/{i}.png", bbox_inches='tight')
 		plt.close()
-generate()
 
 
